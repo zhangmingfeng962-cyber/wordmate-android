@@ -1,0 +1,296 @@
+[
+  {
+    "id": "dog",
+    "path": "distractors/dog.svg",
+    "group": "animal",
+    "aliases": [
+      "dog",
+      "puppy",
+      "canine",
+      "狗",
+      "犬"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f436.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "cat",
+    "path": "distractors/cat.svg",
+    "group": "animal",
+    "aliases": [
+      "cat",
+      "kitten",
+      "猫"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f431.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "fish",
+    "path": "distractors/fish.svg",
+    "group": "animal",
+    "aliases": [
+      "fish",
+      "鱼"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f41f.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "apple",
+    "path": "distractors/apple.svg",
+    "group": "fruit",
+    "aliases": [
+      "apple",
+      "苹果"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f34e.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "banana",
+    "path": "distractors/banana.svg",
+    "group": "fruit",
+    "aliases": [
+      "banana",
+      "香蕉"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f34c.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "car",
+    "path": "distractors/car.svg",
+    "group": "transport",
+    "aliases": [
+      "car",
+      "automobile",
+      "汽车",
+      "轿车"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f697.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "airplane",
+    "path": "distractors/airplane.svg",
+    "group": "transport",
+    "aliases": [
+      "airplane",
+      "aeroplane",
+      "plane",
+      "飞机"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/2708.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "train",
+    "path": "distractors/train.svg",
+    "group": "transport",
+    "aliases": [
+      "train",
+      "railway",
+      "火车"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f686.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "boat",
+    "path": "distractors/boat.svg",
+    "group": "transport",
+    "aliases": [
+      "boat",
+      "sailboat",
+      "船",
+      "帆船"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/26f5.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "house",
+    "path": "distractors/house.svg",
+    "group": "building",
+    "aliases": [
+      "house",
+      "home",
+      "房屋",
+      "房子"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f3e0.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "tree",
+    "path": "distractors/tree.svg",
+    "group": "nature",
+    "aliases": [
+      "tree",
+      "树",
+      "树木"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f333.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "flower",
+    "path": "distractors/flower.svg",
+    "group": "nature",
+    "aliases": [
+      "flower",
+      "tulip",
+      "花",
+      "郁金香"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f337.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "sun",
+    "path": "distractors/sun.svg",
+    "group": "weather",
+    "aliases": [
+      "sun",
+      "sunshine",
+      "太阳",
+      "阳光"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/2600.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "moon",
+    "path": "distractors/moon.svg",
+    "group": "weather",
+    "aliases": [
+      "moon",
+      "月亮"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f319.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "rain",
+    "path": "distractors/rain.svg",
+    "group": "weather",
+    "aliases": [
+      "rain",
+      "rainy",
+      "雨",
+      "下雨"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f327.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "snow",
+    "path": "distractors/snow.svg",
+    "group": "weather",
+    "aliases": [
+      "snow",
+      "snowflake",
+      "雪",
+      "雪花"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/2744.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "mountain",
+    "path": "distractors/mountain.svg",
+    "group": "nature",
+    "aliases": [
+      "mountain",
+      "山",
+      "山脉"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/26f0.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "beach",
+    "path": "distractors/beach.svg",
+    "group": "nature",
+    "aliases": [
+      "beach",
+      "沙滩",
+      "海滩"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f3d6.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "book",
+    "path": "distractors/book.svg",
+    "group": "object",
+    "aliases": [
+      "book",
+      "书",
+      "书本"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f4d6.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "ball",
+    "path": "distractors/ball.svg",
+    "group": "object",
+    "aliases": [
+      "ball",
+      "soccer",
+      "football",
+      "球",
+      "足球"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/26bd.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "key",
+    "path": "distractors/key.svg",
+    "group": "object",
+    "aliases": [
+      "key",
+      "钥匙"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f511.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "chair",
+    "path": "distractors/chair.svg",
+    "group": "object",
+    "aliases": [
+      "chair",
+      "椅子"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1fa91.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "clock",
+    "path": "distractors/clock.svg",
+    "group": "object",
+    "aliases": [
+      "clock",
+      "时钟"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f552.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "cup",
+    "path": "distractors/cup.svg",
+    "group": "object",
+    "aliases": [
+      "cup",
+      "coffee",
+      "杯子",
+      "咖啡"
+    ],
+    "source": "https://github.com/twitter/twemoji/blob/master/assets/svg/2615.svg",
+    "credit": "Twemoji graphics by Twitter and other contributors · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/"
+  }
+]

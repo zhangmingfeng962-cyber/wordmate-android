@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/skywind3000/ECDICT",
+  "csv_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+  "selection": "First 35000 alphabetic English entries by frq, falling back to bnc",
+  "entries": 35000,
+  "inflected_forms": 30413,
+  "forms_selection": "Unambiguous exchange variants of included base entries; exact entries take priority; never substitute base IPA",
+  "purpose": "Lookup only; user wordbook starts empty"
+}
