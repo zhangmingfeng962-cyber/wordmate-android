@@ -1,0 +1,41 @@
+name: Import verified source
+on:
+  push:
+    paths:
+      - WordMate-1.2.0-source.zip
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import the checked source archive
+        run: |
+          if [ ! -f WordMate-1.2.0-source.zip ]; then exit 0; fi
+          python - <<'PY'
+          import hashlib, pathlib, zipfile, os
+          archive = pathlib.Path("WordMate-1.2.0-source.zip")
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == "de60c837e9524ea7ac8d45aa3977671052f61806fec9391bd177127cb27a0bc3"
+          root = pathlib.Path.cwd().resolve()
+          with zipfile.ZipFile(archive) as source:
+              for entry in source.infolist():
+                  rel = pathlib.PurePosixPath(entry.filename).relative_to("WordMate")
+                  assert ".." not in rel.parts and not rel.is_absolute()
+                  if rel.parts[:2] == (".github", "workflows") or entry.is_dir():
+                      continue
+                  target = root.joinpath(*rel.parts).resolve()
+                  assert root in target.parents
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(source.read(entry))
+          os.chmod(root / "gradlew", 0o755)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git rm WordMate-1.2.0-source.zip
+          git commit -m "Import verified WordMate 1.2.0 source"
+          git push
